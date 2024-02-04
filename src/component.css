@@ -1,0 +1,23 @@
+
+.hello{
+    text-align: center;
+    cursor: pointer;
+}
+.hello, th, td{
+    border: 2px solid brown;
+    font-size: 60px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: skyblue;
+}  
+.hello, th, td:hover{
+    background-color: rgb(136, 104, 104);
+    cursor: pointer;
+    animation-delay: 2s;
+} 
+.column{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}

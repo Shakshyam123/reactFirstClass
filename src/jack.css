@@ -1,0 +1,181 @@
+.url{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: sticky;
+}
+.url> ul{
+display: flex;
+justify-content: end;
+}
+.jin{
+  height: 50px;
+  border-radius: 100%;
+}
+li{
+  
+    list-style: none;
+padding: 12px
+}
+
+.url li a{
+   text-decoration: none;
+   font-size: 20px;
+   background-color: white;
+   border-radius: 10px;
+   padding: 5px 10px 5px 10px;
+   font-weight: 100;
+   color: rgb(227, 207, 207);
+   box-shadow: 5px 5px;
+   
+
+}
+.url{
+    background-color: #41A9B2;
+    height: 60px;
+}
+/* .url:hover{
+    /* background-color: #BBFC93; */
+/* } */
+.url li a:hover{
+    background-color: rgb(217, 209, 209);
+    box-shadow: 50px gold;
+    color: black;
+    font-weight: 500;
+
+
+}
+.url>img{
+    justify-content: flex-start;
+}
+.search{
+    font-size: 19px;
+    border-radius: 20px;
+    /* height: 25px; */
+}
+.high{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 160px;
+    text-align: left;
+    left: 0px;
+    color: azure;
+    padding: 20px;
+
+    box-shadow: 5px 10px grey;
+}
+.font{
+    font-size: 60px;
+    
+    width: 500;
+}
+.name{
+    position: absolute;
+    border: 10px solid grey;
+    border-radius: 50px;
+    height: 240px;
+    padding: 12px;
+    width: 300px;
+    top: 200px;
+    left: 800px;
+    background-color: rgb(192, 186, 186);
+}
+.name h1{
+color: blanchedalmond;
+font-weight: 900;
+font-size: 30px;
+text-align: left;
+}
+.name p{
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    color: azure;
+    text-align: left;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn {
+   font-size: 12px;
+    border: 2px solid gold;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    background-color: grey;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+}
+.btn:hover{
+    background-color: darkgray;
+    color:black ;
+    border-radius: 100px;
+    font-weight: 500px  ;
+    
+}
+.btn span{
+    background-color: aquamarine;
+    height: 100px;
+    width: 0;   
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+ 
+}
+footer{
+    height: 300px;
+    display: flex;
+    background-color: #212529;
+}
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    margin-left: 80px;
+    color: white;
+}
+footer ul li a:hover{
+    color: grey;
+}
+footer ul li a h1{
+    margin-left: 60px;
+}
+.foot{
+    background-color: #8e0438;
+    height: 150px;
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.wide h3{
+    
+    padding: 10px 10px 50px 10px;
+    margin: 40px;
+}
+.wide{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.wide p{
+margin: 40px;
+
+}
+.image5{
+    margin: 30px;
+    margin-left: 50px;
+    padding: 12px;
+    padding-left: 12px;
+}
+.pokemon{
+    margin-left: 50px;
+}

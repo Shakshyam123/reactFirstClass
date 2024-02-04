@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn {
+    font-size: 30px;
+    padding: 12px;
+    border: 2px solid gold;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    background-color: darkslategray;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+}
+.btn:hover{
+    background-color: darkgray;
+    color:black ;
+    border-radius: 100px;
+    font-weight: 500px  ;
+    
+}
+.btn span{
+    background-color: aquamarine;
+    height: 100px;
+    width: 0;   
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+ 
+}
