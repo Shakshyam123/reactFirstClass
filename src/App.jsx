@@ -16,7 +16,6 @@ function App() {
     <>
       <button onClick={() => setData(<Note />)}>ChANGE ME</button>
       <button onClick={() => setData(<Print />)}>New page</button>
-      {data}
       <Test />
       <Myfunction like={topi} link={pacman} name={king} />
       <Head class={pass} />
